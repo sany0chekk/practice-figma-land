@@ -1,0 +1,63 @@
+:root{
+    --main-font: 'Inter';
+    --secondary-font: 'Roboto';
+
+    --light-color: #FFFFFF;
+    --title-color: #252B42;
+    --text-color: #374754;
+    --light-blue-color: #2091F9;
+    --blue-color: #0084ff;
+}
+
+body{
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.86;
+    letter-spacing: 0.02px;
+    color: var(--light-color);
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main-btn{
+    background-color: var(--light-blue-color);
+    border: none;
+    border-radius: 35px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--light-color);
+    line-height: 1.4;
+    letter-spacing: 0.01px;
+    transition: background-color .2s ease-out,
+        box-shadow .2s ease-out;
+}
+
+.main-btn:hover{
+    background-color: var(--blue-color);
+    box-shadow: 0px 0px 10px 2px var(--blue-color);
+}
+
+.main-title{
+    font-size: 48px;
+    line-height: 1.14;
+    letter-spacing: 0.2px;
+    color: var(--title-color);
+}
+
+.main-descr{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.42;
+    color: var(--text-color);
+}
