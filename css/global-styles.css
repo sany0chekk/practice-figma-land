@@ -9,6 +9,18 @@
     --blue-color: #0084ff;
 }
 
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body{
     font-family: var(--main-font);
     font-weight: 400;
@@ -19,7 +31,7 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1270px;
     padding: 0 15px;
     margin: 0 auto;
 }
